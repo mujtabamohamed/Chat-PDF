@@ -4,7 +4,7 @@ A modern web application that transforms static PDFs into interactive conversati
 
 <div align="center">
     <img 
-        src="https://drive.google.com/file/d/1QJfGGy4gOZu9I8Lc4MZ3l79WaVUgfgMR/view?usp=sharing" 
+        src="./video/Chat-PDF.gif" 
         alt="Demonstration of Chat with PDF application showing document upload, interactive PDF viewing, and AI-powered chat conversations" 
         width="100%" 
         title="Chat with PDF Demo"
