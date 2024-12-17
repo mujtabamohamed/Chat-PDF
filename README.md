@@ -2,7 +2,7 @@
 
 A modern web application that transforms static PDFs into interactive conversations using AI. Built with Next.js, Firebase, and OpenAI.
 
-![Chat PDF Demo](./video/Chat-PDF.mp4)
+![Chat PDF Demo](./video/Chat-PDF.gif)
 
 
 
