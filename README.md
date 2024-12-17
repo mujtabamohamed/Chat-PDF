@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chat with PDF - Interactive Document Companion
 
-## Getting Started
+A modern web application that transforms static PDFs into interactive conversations using AI. Built with Next.js, Firebase, and OpenAI.
 
-First, run the development server:
+<div align="center">
+  <!-- Option 1: Using GIF -->
+  <img src="https://drive.google.com/file/d/19sH7TWiH5PYwAAcBeUI2altHETSuxrRV/view?usp=sharing" alt="Chat with PDF Demo" width="100%"/>
+  
+  <!-- Option 2: Using Video -->
+  <video width="100%" autoplay loop muted playsinline>
+    <source src="demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+## Features
 
-```bash
+### 🚀 Core Features
+
+- **PDF Document Management**
+  - Upload and store PDF documents
+  - Interactive PDF viewer with zoom and rotation controls
+  - Document organization with size and upload date tracking
+  - Cloud storage integration with Firebase
+
+### 💬 AI Chat Capabilities
+
+- **Intelligent Conversations**
+  - Chat with your PDF documents using natural language
+  - Context-aware responses based on document content
+  - Chat history memorization
+  - Powered by OpenAI's GPT-4
+
+### 💎 Premium Features
+
+- **Free Tier**
+  - Store up to 2 documents
+  - 3 messages per document
+  - Basic AI chat functionality
+
+- **Pro Plan ($5.99/month)**
+  - Store up to 20 documents
+  - 100 messages per document
+  - Advanced AI chat with memory recall
+  - Document deletion capability
+  - Advanced analytics
+  - Priority support
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React 18, TailwindCSS
+- **Backend**: Firebase (Firestore & Storage)
+- **Authentication**: Clerk
+- **Gen AI**: OpenAI GPT-4, LangChain
+- **Payment**: Stripe
+- **Styling**: Tailwind CSS, shadcn/ui
+
+## Installation
+
+1. Clone the repository:
+
+bash
+git clone https://github.com/yourusername/chat-with-pdf.git
+cd chat-with-pdf
+
+2. Install dependencies:
+
+bash
+npm install
+
+3. Run the development server:
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
 
-## Learn More
+The easiest way to deploy this application is using [Vercel](https://vercel.com):
 
-To learn more about Next.js, take a look at the following resources:
+1. Push your code to a GitHub repository
+2. Import your project into Vercel
+3. Add your environment variables
+4. Deploy!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/app` - Next.js app router pages and layouts
+- `/components` - Reusable React components
+- `/actions` - Server actions for data mutations
+- `/lib` - Utility functions and configurations
+- `/hooks` - Custom React hooks
+- `/public` - Static assets
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [OpenAI](https://openai.com/)
+- [Firebase](https://firebase.google.com/)
+- [Clerk](https://clerk.dev/)
+- [Stripe](https://stripe.com/)
+- [LangChain](https://langchain.org/)
+- [Pinecone](https://www.pinecone.io/)

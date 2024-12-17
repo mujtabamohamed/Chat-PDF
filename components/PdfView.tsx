@@ -95,7 +95,7 @@ function PdfView({ url }: { url: string }) {
             </button>
           </div>
 
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <input
               type="number"
               value={inputPageNumber}
@@ -112,7 +112,7 @@ function PdfView({ url }: { url: string }) {
               max={numPages}
             />
             <span>of {numPages}</span>
-          </div>
+          </div> */}
 
           <div>
             <p className="font-semibold text-center text-[#252525]">{documentName}</p>
