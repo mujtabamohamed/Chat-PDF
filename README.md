@@ -2,9 +2,14 @@
 
 A modern web application that transforms static PDFs into interactive conversations using AI. Built with Next.js, Firebase, and OpenAI.
 
-   <div align="center">
-     <img src="demo.gif" alt="Chat with PDF Demo" width="100%"/>
-   </div>
+<div align="center">
+    <img 
+        src="https://drive.google.com/file/d/1QJfGGy4gOZu9I8Lc4MZ3l79WaVUgfgMR/view?usp=sharing" 
+        alt="Demonstration of Chat with PDF application showing document upload, interactive PDF viewing, and AI-powered chat conversations" 
+        width="100%" 
+        title="Chat with PDF Demo"
+    />
+</div>
 
 ## Features
 
