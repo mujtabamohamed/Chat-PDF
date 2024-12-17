@@ -2,8 +2,7 @@
 
 A modern web application that transforms static PDFs into interactive conversations using AI. Built with Next.js, Firebase, and OpenAI.
 
-![Chat PDF Demo](./Chat-PDF.gif)
-
+![Chat PDF Demo](/Chat-PDF.gif)
 
 
 ## Features
@@ -53,19 +52,20 @@ A modern web application that transforms static PDFs into interactive conversati
 1. Clone the repository:
 
 bash
+```
 git clone https://github.com/yourusername/chat-with-pdf.git
 cd chat-with-pdf
-
+```
 2. Install dependencies:
-
+```
 bash
 npm install
-
+```
 3. Run the development server:
-
+```
 bash
 npm run dev
-
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
