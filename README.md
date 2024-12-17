@@ -2,8 +2,8 @@
 
 A modern web application that transforms static PDFs into interactive conversations using AI. Built with Next.js, Firebase, and OpenAI.
 
-<!-- ![Chat PDF Demo](/Chat-PDF.gif) -->
-![Chat PDF Demo](https://s7.gifyu.com/images/SPzwi.gif)
+![Chat PDF Demo](/Chat-PDF.gif)
+<!-- ![Chat PDF Demo](https://s7.gifyu.com/images/SPzwi.gif) -->
 
 
 
