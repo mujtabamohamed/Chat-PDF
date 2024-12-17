@@ -89,13 +89,16 @@ export default function Home() {
 
         <div className="relative overflow-hidden pt-16">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <Image
-              alt="App screenshot"
-              src="https://i.imgur.com/VciRSTI.jpeg"
-              width={2432}
-              height={1442}
-              className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-            />
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10 w-full"
+            >
+              <source src="/Chat-PDF.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div aria-hidden="true" className="relative">
               <div className="absolute bottom-0 -inset-x-32 bg-gradient-to-t from-white/95 pt-[5%]" />
             </div>
